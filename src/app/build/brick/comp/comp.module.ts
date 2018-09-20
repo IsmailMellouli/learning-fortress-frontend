@@ -18,6 +18,7 @@ import { TextHighlightingComponent } from './comp_text_highlighting.component';
 import { HighlightDirective } from './highlight.directive';
 import { ArrowComponent } from './comp_arrow.component';
 
+
 let dModule = DynamicModule.withComponents([SingleChoiceComponent, MultipleChoiceComponent, 
     TextComponent, OrderComponent, SortComponent, ShortAnswerComponent, HorizontalShuffleComponent, 
     TextHighlightingComponent, ArrowComponent])
